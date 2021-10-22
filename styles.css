@@ -26,7 +26,7 @@ main {
 h1 {
     font-size: 2rem;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 
@@ -61,7 +61,7 @@ h1 {
     font-family: inherit;
     padding: 1.8rem 3rem;
     cursor: pointer;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .btn:hover {
@@ -69,10 +69,19 @@ h1 {
 }
 
 .message {
-    margin: 2rem auto;
+    margin: 1rem auto;
     height: 3rem;
 }
 
 .label-score {
     margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    h1{
+        margin-top: 1.2rem;
+    }
+    .message{
+        margin: 0 auto 1rem;
+    }
 }
